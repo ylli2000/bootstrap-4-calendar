@@ -8,5 +8,5 @@ document.addEventListener("DOMContentLoaded", async ()=>{
     const spr = Spinner('calendar'); 
     await spr.renderSpinner().delay(0);
     cal.bindData(mockData);
-    cal.renderCalendar();
+    cal.render();
 });
