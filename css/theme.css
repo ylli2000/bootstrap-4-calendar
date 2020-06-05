@@ -1,0 +1,53 @@
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+body {
+    min-height: 100vh;
+    background-color: #3ca55c;
+    background-image: linear-gradient(147deg, #3ca55c 0%, #b5ac49 100%);
+  }
+  
+/*
+*
+* ==========================================
+* THEME COLOURS
+* ==========================================
+*
+*/
+.bg-orange, .bg-orange-alt:hover { background-color: #ff976f; }
+.bg-red, .bg-red-alt:hover { background-color: #ff6075; }
+.bg-red-orange, .bg-red-orange-alt:hover { background-color: #fe6d56; }
+.bg-green, .bg-green-alt:hover { background-color: #00c98d; }
+.bg-sky-blue,.bg-sky-blue-alt:hover { background-color: #4cc1e6; }
+.bg-blue, .bg-blue-alt:hover { background-color: #2a94bc; }
+.bg-dark-blue, .bg-dark-blue-alt:hover { background-color: #365b7b; }
+.bg-cyan, .bg-cyan-alt:hover { background-color: #00a5a7; }
+.bg-dark-cyan, .bg-dark-cyan-alt:hover { background-color: #537a8a; }
+.bg-purple, .bg-purple-alt:hover { background-color: #6d5a79; }
+
+.bg-orange-alt { background-color: #ffa881; }
+.bg-red-alt { background-color: #ff7388; }
+.bg-red-orange-alt { background-color: #fe8977; }
+.bg-green-alt { background-color: #00d49e; }
+.bg-sky-blue-alt { background-color: #68c6e4; }
+.bg-blue-alt { background-color: #459bbb; }
+.bg-dark-blue-alt { background-color: #45627b; }
+.bg-cyan-alt { background-color: #00b5b8; }
+.bg-dark-cyan-alt { background-color: #637e89; }
+.bg-purple-alt { background-color: #726879; }
+
+.bg-orange { background-color: #ff976f; }
+.bg-red { background-color: #ff6075; }
+.bg-red-orange { background-color: #fe6d56; }
+.bg-green { background-color: #00c98d; }
+.bg-sky-blue { background-color: #4cc1e6; }
+.bg-blue { background-color: #2a94bc; }
+.bg-dark-blue { background-color: #365b7b; }
+.bg-cyan { background-color: #00a5a7; }
+.bg-dark-cyan { background-color: #537a8a; }
+.bg-purple { background-color: #6d5a79; }

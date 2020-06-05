@@ -1,0 +1,116 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.clearfix::after,
+.calendar ol::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* ================
+Calendar Styling */
+.calendar {
+  min-width: 375px;
+  position: relative;
+}
+.calendar a{
+  cursor: pointer;
+}
+.calendar.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+    supported by Chrome, Edge, Opera and Firefox */
+}
+.month-year-btn {
+  color: #444;
+}
+.month-year {
+  width: 11rem;
+}
+.month, .year {
+  font-size: 1.5rem;
+}
+
+.initials {
+}
+@media (max-width: 550px) {
+  .initials {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: 1ch; 
+    width: 1.9ch;
+  }
+}
+
+.calendar ol li {
+  float: left;
+  width: 14.28571%;
+}
+
+.calendar .day-names {
+  border-bottom: 1px solid #eee;
+  color: #444;
+}
+
+.calendar .days { 
+  border-bottom: 1px solid #eee;
+}
+.calendar .days li {
+  min-height: 6rem;
+  cursor: pointer;
+}
+
+.calendar .days li .date {
+  margin-bottom: 0.5rem;
+}
+
+.calendar .days li .event {
+  font-size: 0.75rem;
+  padding: 0.4rem 0.6rem 0.4rem  0.8rem;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 4rem;
+  margin: 0 1px 1px 0;
+}
+
+.calendar .days li .event.span-2 {
+  width: 200%;
+}
+
+.calendar .days li .event.begin {
+  border-radius: 1rem 0 0 1rem;
+}
+
+.calendar .days li .event.end {
+  border-radius: 0 1rem 1rem 0;
+}
+
+.calendar .days li .event.clear {
+  background: none;
+}
+
+.calendar .days li:nth-child(n+29) {
+  border-bottom: none;
+}
+
+.calendar .days li.outside .date  {
+  color: #ddd;
+}
+.calendar .days li.today .date  {
+  text-decoration: underline;
+}
