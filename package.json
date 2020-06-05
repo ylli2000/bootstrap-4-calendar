@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ylli2000/bootstrap-4-calendar/issues"
   },
-  "homepage": "https://github.com/ylli2000/bootstrap-4-calendar#readme"
+  "homepage": "https://github.com/ylli2000/bootstrap-4-calendar#readme",
+  "dependencies": {
+    "moment": "^2.26.0"
+  }
 }
